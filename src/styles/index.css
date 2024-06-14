@@ -10,3 +10,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(67, 67, 67);
+    color: white;
+}
+
+.clock > h1 {
+    background-color: whitesmoke;
+    color: black;
+}
